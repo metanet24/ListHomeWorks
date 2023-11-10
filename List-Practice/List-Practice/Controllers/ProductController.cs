@@ -1,6 +1,4 @@
-﻿using List_Practice.Models;
-using List_Practice.Service;
-using List_Practice.Service.interfacess;
+﻿using List_Practice.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,39 +9,36 @@ namespace List_Practice.Controllers
 {
     public class ProductController
     {
-        private readonly IProductService _service;
-
+        private readonly IProductService _productService;
         public ProductController()
         {
-            _service=new ProductttsService();
+            _productService = new ProductService();
         }
-
-       public void GetAll()
+        public void GetAll()
         {
-            var datas=_service.GetAll();
+            var datas=_productService.GetAll();
 
             foreach (var item in datas)
             {
                 Console.WriteLine(item.Name+" "+item.Price);
             }
         }
-
-
-
-        public void GetById(int id)
+        public void GetById()
         {
-            var data = _service.GetById(2);
-            Console.WriteLine(data.Id+" "+data.Name+" "+data.Price);
+            int Id=int.Parse(Console.ReadLine());
+            var data = _productService.GetById(Id);
+            Console.WriteLine(data.Name+" "+data.Count);
 
         }
 
+
         public void Sort()
         {
-            var datas = _service.GetAllByDescending();
+            var datas = _productService.GetAllDesc();
 
             foreach (var item in datas)
             {
-                Console.WriteLine(item.Name+" "+item.Price);
+                Console.WriteLine(item.Name + " " + item.Price);
             }
         }
     }

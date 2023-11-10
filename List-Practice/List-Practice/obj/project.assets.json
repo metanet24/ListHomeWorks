@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\ListHomeWork\\List-Practice\\List-Practice\\List-Practice.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\c#\\List-Practice\\List-Practice\\List-Practice.csproj",
       "projectName": "List-Practice",
-      "projectPath": "C:\\Users\\HP\\Desktop\\ListHomeWork\\List-Practice\\List-Practice\\List-Practice.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\c#\\List-Practice\\List-Practice\\List-Practice.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\ListHomeWork\\List-Practice\\List-Practice\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\c#\\List-Practice\\List-Practice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

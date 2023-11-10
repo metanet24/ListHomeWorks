@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List-Task", "List-Task\List-Task.csproj", "{24B14B49-F46F-4918-8888-AC4B109CAC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7BE6DB07-5FA0-4622-9607-42C547B43425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{C99403C9-CF1B-49BE-893D-D83459656568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24B14B49-F46F-4918-8888-AC4B109CAC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B14B49-F46F-4918-8888-AC4B109CAC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B14B49-F46F-4918-8888-AC4B109CAC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B14B49-F46F-4918-8888-AC4B109CAC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE6DB07-5FA0-4622-9607-42C547B43425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE6DB07-5FA0-4622-9607-42C547B43425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE6DB07-5FA0-4622-9607-42C547B43425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE6DB07-5FA0-4622-9607-42C547B43425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99403C9-CF1B-49BE-893D-D83459656568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99403C9-CF1B-49BE-893D-D83459656568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99403C9-CF1B-49BE-893D-D83459656568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99403C9-CF1B-49BE-893D-D83459656568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7A3801F-9B0B-4736-93DD-4469191FD780}
+	EndGlobalSection
+EndGlobal

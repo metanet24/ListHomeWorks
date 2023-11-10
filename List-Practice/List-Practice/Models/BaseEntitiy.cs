@@ -8,6 +8,6 @@ namespace List_Practice.Models
 {
     public abstract class BaseEntitiy
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
     }
 }
